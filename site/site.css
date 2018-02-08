@@ -3,6 +3,13 @@ body, html {
     font-family: "Arial";
 }
 
+body.announce {
+    /* Selected from child cyclist background, but doesn't work here.  So
+       created new template, page-announce.html.  That's a hack, I
+       think. */
+    background-color: #3D4547;
+}
+
 /* The logo */
 .hero-head-left {
     position: absolute;
@@ -34,11 +41,7 @@ body, html {
 .hero-transparent {
     /* The image used */
     background-image: url("cycliste_dark.jpg");
-    opacity: 0.5;
-    /* Selected from child cyclist background, but doesn't work here.  So
-       created new template, page-announce.html.  That's a hack, I
-       think. */
-    background-color: #3D4547;
+    opacity: 1.0;
     height: 100%;
 
     /* Position and center the image to scale nicely on all screens */
