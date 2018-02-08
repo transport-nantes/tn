@@ -56,6 +56,15 @@ p.bigger-text {
     color: white;
 }
 
+.announce-text {
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 30px;
+    width: 50%;
+    color: white;
+}
+
 .contact-button {
     background-color: #F4991E;	/* Orange. */
     color: white;
