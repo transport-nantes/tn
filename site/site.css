@@ -10,6 +10,10 @@ body.announce {
     background-color: #3D4547;
 }
 
+body.announce {
+    background-color: #FFFFFF;
+}
+
 /* The logo */
 .hero-head-left {
     position: absolute;
